@@ -1,0 +1,69 @@
+<html>
+    <head>
+        <title>Form</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Form!</h1>
+        <form id="form">
+
+            <div class="form-control">
+                <label for="name" id="label-name">Name:</label>
+                <input type="text" id="name" placeholder="Enter your name">
+            </div>
+
+            <div class="form-control">
+                <label for="email" id="label-email">Email:</label>
+                <input type="text" id="email" placeholder="Enter your Email">
+            </div>
+
+            <div class="form-control">
+                <label for="age" id="label-contact">Age:</label>
+                <input type="text" id="age" placeholder="Enter your Age">
+            </div>
+            <div class="form-control">
+                <label>Your Role:</label>
+                <select name="role" id="role">
+                    <option value="student">Student</option>
+                    <option value="teacher">Teacher</option>
+                </select>
+            </div>
+            <div class="form-control">
+                <label>Qualification:</label>
+                <input type="radio" 
+                id="option-11th"
+                name="radio-homework">11th</input>
+                <input type="radio"
+                id="option-12th"
+                name="radio-homework">12th</input>
+                <input type="radio"
+                Id="option-Degree"
+                name="radio-homework">Degree</input>
+            </div>
+            <div class="form-control">
+                <label>Languages you know:</label>
+                <label for="python">
+                    <input type="checkbox" name="language">Python</input>
+                </label>  
+                <label for="c">
+                    <input type="checkbox" name="language">C</input>
+                </label> 
+                <label for="C++">
+                    <input type="checkbox" name="language">C++</input>
+                </label> 
+                <label for="Java">
+                    <input type="checkbox" name="language">Java</input>
+                </label>   
+            </div>
+            <div class="form-control">
+                <label for="suggestion">Any other suggestions?</label>
+                <textarea id="suggestion" placeholder="Add any suggesstion"></textarea>
+            </div>
+            <div class="form-control">
+            <button type="Submit" value="Submit">
+                Submit
+            </button>
+            </div>
+        </form>
+    </body>
+</html> 

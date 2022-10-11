@@ -1,0 +1,16 @@
+
+    body{
+        background-color:#1cf2bc;
+        font-family:verdana;
+        text-align:center;
+    }
+    form{
+        background-color:azure;
+        max-width:500px;
+        padding:13px;
+        margin-left: 350px;
+        box-shadow:2px 5px 10px rgba(0,0,0,0.7)
+    }
+    .form-control{
+        margin-bottom:5px;
+    }
